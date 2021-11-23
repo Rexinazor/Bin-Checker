@@ -1,16 +1,13 @@
 <?php
-/*
-BY:- @BenchamXD
 
-CHANNEL:- @IndusBots
 */
 error_reporting(0);
 
 set_time_limit(0);
 
 flush();
-$API_KEY = 'Your bot token'; //Your token
-##------------------------------##
+$API_KEY = 'Your bot token'; 
+
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -33,7 +30,6 @@ function bot($method,$datas=[]){
 	]);
 	}
 	
-//==============BENCHAM======================//
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;
 $message_id = $update->message->id;
@@ -49,9 +45,7 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***Welcome to bin checker
 
-Use*** `/bin xxxxx` ***to check the bin.
-
-You can also make a bot like this from here:- https://github.com/BenchamXd/Bin-Checker***",
+Use*** `/bin xxxxx` ***to check the bin.***",
 'parse_mode'=>"MarkDown",
 ]);
 if(strpos($text,"/bin") !== false){ 
@@ -96,8 +90,4 @@ bot('sendmessage', [
 ]);
 }
 }
-/*
-BY:- @BenchamXD
 
-CHANNEL:- @IndusBots
-*/
