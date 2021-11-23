@@ -1,12 +1,12 @@
-# Bin-Checker-Bot
+# Bin-Checker
 
-A simple php telegram bot to check if the bin is valid or not
+A simple php telegram bot to check if the bin is valid or not!
 
-## HOW TO DEPLOY?
+## Deploy
 
-**FORK THE REPO FROM** [HERE](https://github.com/Benchamxd/Bin-Checker/fork)
+**FORK the Repo by clicking** [HERE](https://github.com/Rexinazor/Bin-Checker/fork)
 
-``ADD YOU BOT TOKEN IN LINE 12``
+``Add your bot token in LINE 12``
 
 **THEN DEPLOY YOUR REPO BY** ``https://heroku.com/deploy?template=<ur git link>``
 
@@ -14,11 +14,3 @@ A simple php telegram bot to check if the bin is valid or not
 
 **AFTER THIS REMOVE YOUR BOT TOKEN FROM THE REPO FOR YOUR SAFTEY**
 
-## HELP ME
-
-For any type of help on deploy. Contact me here [INDUS CHATS](https://t.me/induschats).
-
-
-##
-
-**DO GIVE A STAR TO MY PROJECT AND SUPPORT IT**
